@@ -34,7 +34,7 @@
                     new { @class = "form-control" })
   <br>
   @Html.LabelFor(model => model.Cuisine)
-  @Html.DropDownList("CuisineId")
+  @Html.DropDownList("CuisineId", null, new { @class = "form-control" })
   @* this is connected to the viewbag from the RestaurantController on line 22 *@
   
   
